@@ -1,12 +1,12 @@
 ---
 title: 二年次履修振り返り
 ---
-[トップに戻る](https://mikazukimo.github.io/zukimo_shiroko_suki/)  
+[トップに戻る](../index.html)  
 最終更新：2025/3/11
 # 二年次履修振り返り
 本ノートはKLiS23の人が二年間大学生活を送って受けてきた授業のレビューをつらつら書くものです。    
 個人の見解です。    
-- [2023年度（一年生）はこちら](https://mikazukimo.github.io/zukimo_shiroko_suki/pages/firstgrade-review.html)
+- [2023年度（一年生）はこちら](./firstgrade-review.html)
 - [春学期はこちら](#春学期)
 - [秋学期はこちら](#秋学期)
 
