@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html></html>
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="/assets/css/orbit.css">
+    <link rel="stylesheet" href="/assets/css/body.css">   
+    <script src="/assets/js/orbit.js"></script>
+    <title>Zukimo Home Page</title>
+    <style>
+        .anim-box {
+        border-radius: 5px;
+        max-width: 1000px;
+        height: 1000px;
+        color: rgb(255, 255, 255);
+        }
+        .anim-box.zoomin.is-animated {
+        animation: zoomIn 0.8s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+        }
+      
+        @keyframes zoomIn {
+          0% {
+            transform: scale(0.8);
+            opacity: 0;
+          }
+          100% {
+            opacity: 1;
+            transform: scale(1);
+          }
+        }
+    </style>
+</head>
+  <body>
+    <h1>
+      <center>こんにちは</center>
+    </h1>
+    <center>
+      <div class="anim-box zoomin js-anim is-animated" center>
+          <div class="bigbang">
+            <div class="gravity-spot" style="--o-force: 1000px">
+              <div class="orbit-3 invisible">
+                <div class="vector grow-4x"></div>
+                <div class="vector grow-1.9x inner-orbit"></div>
+                <div class="vector grow-3x angle-60"></div>
+                <div class="vector grow-3x angle-90"></div>
+                <div class="vector grow-3x angle-270"></div>
+                <div class="vector grow-4x"></div>
+                <div class="vector grow-3x"></div>
+                <div class="vector grow-1.9x inner-orbit"></div>
+                <div class="vector grow-3x angle-240"></div>
+                <div class="vector grow-5x"></div>
+
+              </div>
+            </div>
+
+            <div class="gravity-spot">
+              <div class="orbit invisible">
+                Me
+              </div>
+              <div class="orbit">
+                <div class="satellite rotate-orbit rotate-time-5 invisible">
+                  <div class="gravity-spot"> <!-- Nested example -->
+                    <div class="orbit-2 rotate-orbit rotate-time-5 invert invisible">
+                      物書き
+                    </div>
+                  </div>
+                </div>
+                <div class="satellite rotate-orbit rotate-time-5 invisible">
+                  <div class="gravity-spot"> <!-- Nested example -->
+                    <div class="orbit-2 rotate-orbit rotate-time-5 invert invisible">
+                      司書
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="orbit invisible">
+              </div>
+              <div class="orbit invisible">
+              </div>
+              <div class="orbit">
+                <div class="satellite rotate-orbit rotate-time-2 invisible">
+                  <div class="gravity-spot"> <!-- Nested example -->
+                    <div class="orbit-2 rotate-orbit rotate-time-2 invert invisible">
+                      アニメ
+                    </div>
+                  </div>
+                </div>
+                <div class="satellite rotate-orbit rotate-time-2 invisible">
+                  <div class="gravity-spot"> <!-- Nested example -->
+                    <div class="orbit-2 rotate-orbit rotate-time-2 invert invisible">
+                      ゲーム
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="orbit-12">
+                <div class="satellite rotate-orbit rotate-time-1 invisible">
+                  <div class="gravity-spot"> <!-- Nested example -->
+                    <div class="orbit-4 rotate-orbit rotate-time-1 invert invisible">
+                        図書館情報学
+                    </div>
+                    <div class="orbit-5 ">
+                        <div class="satellite rotate-orbit rotate-time-1 invisible">
+                            <div class="gravity-spot"> <!-- Nested example -->
+                                <div class="orbit-3 rotate-orbit rotate-time-3 invert ">
+                                    情報探索行動
+                                    <div class="satellite rotate-orbit rotate-time-3 angle-270 invisible">
+                                      <div class="gravity-spot"> <!-- Nested example -->
+                                          <div class="orbit-3 rotate-orbit rotate-time-3 invert invisible">
+                                              情報貧困理論
+                                          </div>
+                                      </div>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="satellite rotate-orbit rotate-time-1 invisible">
+                          <div class="gravity-spot"> <!-- Nested example -->
+                              <div class="orbit-3 rotate-orbit rotate-time-3 invert  angle-180">
+                                  図書館学
+                                  <div class="satellite rotate-orbit rotate-time-3 angle-270 invisible">
+                                    <div class="gravity-spot"> <!-- Nested example -->
+                                        <div class="orbit-3 rotate-orbit rotate-time-3 invert invisible">
+                                            メディア教育
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="satellite rotate-orbit rotate-time-3 angle-90 invisible">
+                                  <div class="gravity-spot"> <!-- Nested example -->
+                                      <div class="orbit-3 rotate-orbit rotate-time-3 invert invisible">
+                                          図書館と地域
+                                      </div>
+                                  </div>
+                              </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="satellite rotate-orbit rotate-time-1 invisible">
+                          <div class="gravity-spot"> <!-- Nested example -->
+                              <div class="orbit-5 rotate-orbit rotate-time-3 invert invisible angle-180">
+                                  知識情報学
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="satellite rotate-orbit rotate-time-1 invisible">
+                  <div class="gravity-spot"> <!-- Nested example -->
+                    <div class="orbit-3 rotate-orbit rotate-time-1 invert invisible">
+                        教育学
+                    </div>
+                    <div class="orbit-5">
+                        <div class="satellite rotate-orbit rotate-time-1 invisible">
+                            <div class="gravity-spot"> <!-- Nested example -->
+                                <div class="orbit-3 rotate-orbit rotate-time-3 invert">
+                                    教育哲学
+                                    <div class="satellite rotate-orbit rotate-time-1 angle-270 invisible">
+                                      <div class="gravity-spot"> <!-- Nested example -->
+                                          <div class="orbit-3 rotate-orbit rotate-time-1 invert invisible">
+                                              J.デューイ
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="satellite rotate-orbit rotate-time-1 angle-90 invisible">
+                                    <div class="gravity-spot"> <!-- Nested example -->
+                                        <div class="orbit-3 rotate-orbit rotate-time-1 invert invisible">
+                                            J.A.コメニウス
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="satellite rotate-orbit rotate-time-1 invisible">
+                          <div class="gravity-spot"> <!-- Nested example -->
+                              <div class="orbit-3 rotate-orbit rotate-time-3 invert  angle-180">
+                                  教科指導法
+                                  <div class="satellite rotate-orbit rotate-time-3 angle-270 invisible ">
+                                    <div class="gravity-spot"> <!-- Nested example -->
+                                        <div class="orbit-3 rotate-orbit rotate-time-3 invert invisible">
+                                            情報科
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+                  
+                  
+                </div>
+                <div class="satellite rotate-orbit rotate-time-1 invisible">
+                  <div class="gravity-spot"> <!-- Nested example -->
+                    <div class="orbit-3 rotate-orbit rotate-time-1 invert invisible">
+                        情報工学（？）
+                    </div>
+                    <div class="orbit-5">
+                        <div class="satellite rotate-orbit rotate-time-1 invisible">
+                            <div class="gravity-spot"> <!-- Nested example -->
+                                <div class="orbit-3 rotate-orbit rotate-time-3 invert">
+                                    プログラミング
+                                  <div class="satellite rotate-orbit rotate-time-1  invisible">
+                                    <div class="gravity-spot"> <!-- Nested example -->
+                                        <div class="orbit-3 rotate-orbit rotate-time-1 invert invisible">
+                                            Python
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="satellite rotate-orbit rotate-time-1 invisible">
+                                  <div class="gravity-spot"> <!-- Nested example -->
+                                      <div class="orbit-3 rotate-orbit rotate-time-1 invert invisible">
+                                          nim
+                                      </div>
+                                  </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="satellite rotate-orbit rotate-time-1 invisible">
+                          <div class="gravity-spot"> <!-- Nested example -->
+                              <div class="orbit-5 rotate-orbit rotate-time-3 invert invisible angle-180">
+                                  情報科教育
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </center>
+  </body>
+</html>
