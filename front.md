@@ -1,115 +1,43 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="./assets/css/bootstrap/bootstrap.css">
-    <link rel="stylesheet" href="./assets/css/orbit.css"> 
-    <link rel="stylesheet" href="./assets/css/header.css">
-    <link rel="stylesheet" href="./assets/css/fonts.css">
-    <script src="./assets/js/bootstrap/bootstrap.js"></script>
-    <script src="./assets/js/orbit.js"></script>
-    <title>Zukimo Home Page</title>
-    <style>
-        .anim-box {
-        border-radius: 10px;
-        max-width: 1000px;
-        height: 900px;
-        background-color: rgb(0, 58, 145);
-        color: rgb(255, 255, 255);
-        }
-        .anim-box.zoomin.is-animated {
-        animation: zoomIn 0.8s cubic-bezier(0.25, 1, 0.5, 1) forwards;
-        }
-        .box-animate {
-        animation: zoomIn 0.8s cubic-bezier(0.25, 1, 0.5, 1) forwards;
-        }
-      
-        @keyframes zoomIn {
-          0% {
-            transform: scale(0.8);
-            opacity: 0;
-          }
-          100% {
-            opacity: 1;
-            transform: scale(1);
-          }
-        }
-    </style>
-</head>
-<header>
-  <div class="px-3 py-2 bg-dark text-white">
-  <div class="container">
-      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-        <a href="https://klis.tsukuba.ac.jp/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
-            ずきものホームページだよ
-        </a>
-      </div>
-  </div>
-  </div>
-</header>
+# これでいい気がしてきた
 
-  <body>
-    <div style="text-align: center">
-      <h1>こんにちはだよ</h1>
+これはMarkdownのテキストです。
+<link rel="stylesheet" href="./assets/css/bootstrap/bootstrap.css">
+<link rel="stylesheet" href="./assets/css/orbit.css"> 
+<link rel="stylesheet" href="./assets/css/header.css">
+<link rel="stylesheet" href="./assets/css/fonts.css">
+<style>
+  .container {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+  }
+</style>
+
+<div class="gravity-spot container" >
+    <div class="orbit toumei ">
+    Me
     </div>
-    
-      <div class="container-md">
-        <div class="row">
-          <div class="col-3 px-3 py-2 bg-dark text-white" style="text-align: center">
-            <dev class="text-white text-decoration-none">ここはなんですか</dev><br>
-            <p>ここは、ずきもがなんかくるくるするCSSを使いたいので立ち上げたサイトです</p>
-            <p>将来的にはちゃんとしたHPにしたいなって思ってるけど、なんか、結局MDで書いてるからAstroのほうが良いんじゃねって</p>
-            <li>
-              <a href="./pages/firstgrade-review.html" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white">1年生</a>
-            </li>
-            <li>
-              <a href="./pages/secandgrade-review.html" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white">2年生</a>
-            </li>
-          </div>
-
-          <div class="col">
-          <div class="anim-box box-animate">
-          <div class="bigbang">
-            <div class="gravity-spot" style="--o-force: 1000px">
-              <div class="orbit-3 toumei">
-                <div class="vector grow-4x"></div>
-                <div class="vector grow-1.9x inner-orbit"></div>
-                <div class="vector grow-3x angle-60"></div>
-                <div class="vector grow-3x angle-90"></div>
-                <div class="vector grow-3x angle-270"></div>
-                <div class="vector grow-4x"></div>
-                <div class="vector grow-3x"></div>
-                <div class="vector grow-1.9x inner-orbit"></div>
-                <div class="vector grow-3x angle-240"></div>
-                <div class="vector grow-5x"></div>
-              </div>
+    <div class="orbit">
+        <div class="satellite rotate-orbit rotate-time-5 toumei">
+            <div class="gravity-spot"> <!-- Nested example -->
+                <div class="orbit-2 rotate-orbit rotate-time-5 invert toumei">
+                物書き
+                </div>
             </div>
-
-          <div class="gravity-spot">
-              <div class="orbit toumei ">
-                Me
-              </div>
-              <div class="orbit">
-                <div class="satellite rotate-orbit rotate-time-5 toumei">
-                  <div class="gravity-spot"> <!-- Nested example -->
-                    <div class="orbit-2 rotate-orbit rotate-time-5 invert toumei">
-                      物書き
-                    </div>
-                  </div>
+        </div>
+        <div class="satellite rotate-orbit rotate-time-5 toumei">
+            <div class="gravity-spot"> <!-- Nested example -->
+                <div class="orbit-2 rotate-orbit rotate-time-5 invert toumei">
+                    司書
                 </div>
-                <div class="satellite rotate-orbit rotate-time-5 toumei">
-                  <div class="gravity-spot"> <!-- Nested example -->
-                    <div class="orbit-2 rotate-orbit rotate-time-5 invert toumei">
-                      司書
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="orbit toumei">
-              </div>
-              <div class="orbit toumei">
-              </div>
-              <div class="orbit">
+            </div>
+        </div>
+    </div>
+        <div class="orbit toumei">
+        </div>
+        <div class="orbit toumei">
+        </div>
+            <div class="orbit">
                 <div class="satellite rotate-orbit rotate-time-2 toumei">
                   <div class="gravity-spot"> <!-- Nested example -->
                     <div class="orbit-2 rotate-orbit rotate-time-2 invert toumei">
@@ -202,7 +130,6 @@
                                     </div>
                                 </div>
                                 </div>
-                                
                             </div>
                         </div>
                         <div class="satellite rotate-orbit rotate-time-1 toumei">
@@ -221,8 +148,6 @@
                         </div>
                     </div>
                   </div>
-                  
-                  
                 </div>
                 <div class="satellite rotate-orbit rotate-time-1 toumei">
                   <div class="gravity-spot"> <!-- Nested example -->
@@ -240,7 +165,6 @@
                                             Python
                                         </div>
                                     </div>
-                                    
                                 </div>
                                 <div class="satellite rotate-orbit rotate-time-1 toumei">
                                   <div class="gravity-spot"> <!-- Nested example -->
@@ -266,6 +190,5 @@
             </div>
           </div>
   </div><!--kokomade-->
-</div>
-  </body>
-</html>
+
+これは再びMarkdownのテキストです。
